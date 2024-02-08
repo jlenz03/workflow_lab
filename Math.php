@@ -1,6 +1,3 @@
-
-<p>hello im gavin! :)</p>
-
 <?php
 /**
  * This class provides some crucial math operations for our application.
@@ -8,7 +5,7 @@
  * @author		ACME Development
  * @version		1.0
  */
-
+ 
 class Math {
 
 	// some useless constants
@@ -23,21 +20,18 @@ class Math {
 	 * @return float
 	 */
 	public static function add($num1, $num2){
+<<<<<<< HEAD
+		$sum = $num1 * $num2;
+		return $sum;
+	}
+	
+=======
 		$sum = $num1 + $num2;
 		return $sum;
 	}
 
-    /**
-     * Returns the difference of two numbers
-     *
-     * @param float $num1
-     * @param float $num2
-     * @return float
-     */
-    public static function subtract($num1, $num2){
-        return $num1 - $num2;
-        // New method for subtraction
-    }
 
 
+public static function division($num1, $num2){$sum = $num1 / $num2;return $sum;}
+>>>>>>> 4b5852b (fixed epic addition function)
 }
