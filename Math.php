@@ -20,20 +20,11 @@ class Math {
 	 * @return float
 	 */
 	public static function add($num1, $num2){
-		$sum = $num1 + $num2;
+		$sum = $num1 * $num2;
 		return $sum;
 	}
 
-    /**
-     * Returns the difference of two numbers
-     *
-     * @param float $num1
-     * @param float $num2
-     * @return float
-     */
-    public static function subtract($num1, $num2){
-        return $num1 - $num2; // New method for subtraction
-    }
 
 
+public static function division($num1, $num2){$sum = $num1 / $num2;return $sum;}
 }
