@@ -1,3 +1,5 @@
+
+<P> THIS STINKS LIKE MY BUMSKY!</P>
 <?php
 /**
  * This class provides some crucial math operations for our application.
