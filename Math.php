@@ -1,3 +1,6 @@
+
+<p>hello im gavin! :)</p>
+
 <?php
 /**
  * This class provides some crucial math operations for our application.
@@ -5,7 +8,7 @@
  * @author		ACME Development
  * @version		1.0
  */
- 
+
 class Math {
 
 	// some useless constants
