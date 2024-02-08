@@ -20,7 +20,7 @@ class Math {
      * @return float
      */
     public static function add(float $num1, float $num2): float {
-        $sum = $num1 + $num2;
+        $sum = $num1 - $num2;
 
         return $sum;
     }
